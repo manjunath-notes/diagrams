@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T04:40:07.655Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wWcXvz40Enao80mHAgHN" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-21T04:44:44.184Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qpRdvss0xo2enjWkvOZJ" version="21.6.8" type="github">
   <diagram name="Page-1" id="WoqhhD6lpDFLgfi7OJ99">
     <mxGraphModel dx="1306" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,6 +61,18 @@
         </mxCell>
         <mxCell id="0i_TROUVxeNVEFwLMdWt-29" value="kubectl create deployment nginx --image nginx" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="0i_TROUVxeNVEFwLMdWt-28">
           <mxGeometry y="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0i_TROUVxeNVEFwLMdWt-30" value="A K8 worker node" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="440" y="760" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0i_TROUVxeNVEFwLMdWt-31" value="kubelet" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="0i_TROUVxeNVEFwLMdWt-30">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0i_TROUVxeNVEFwLMdWt-32" value="container runtime" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="0i_TROUVxeNVEFwLMdWt-30">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0i_TROUVxeNVEFwLMdWt-33" value="kube-proxy&lt;br&gt;&lt;br&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="0i_TROUVxeNVEFwLMdWt-30">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
